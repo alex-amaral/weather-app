@@ -38,7 +38,7 @@ function Map({ google }) {
 
     const { lat, lng } = position
 
-    fetch(`http://api.openweathermap.org/data/2.5/find?lat=${lat}&lon=${lng}&cnt=15&appid=${process.env.REACT_APP_OPEN_WEATHER_API_KEY}`)
+    fetch(`https://api.openweathermap.org/data/2.5/find?lat=${lat}&lon=${lng}&cnt=15&appid=${process.env.REACT_APP_OPEN_WEATHER_API_KEY}`)
       .then(response => response.json())
       .then(json => {
         setCities(json.list)
