@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Create an `.env` file copying the keys in the `.env.sample` file and paste your Google Maps API Key and Open Weather API Key.
 
+## Example
+
+To see a live example of this application, go over https://keen-lamport-28d474.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
